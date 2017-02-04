@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TextViewPlus">
+        <attr name="nameTextView" format="string" />
+        <attr name="sizeTextView" format="float" />
+    </declare-styleable>
+
+</resources>
