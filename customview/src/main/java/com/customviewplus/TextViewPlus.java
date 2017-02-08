@@ -29,7 +29,7 @@ public class TextViewPlus extends TextView {
     private void setCustomFont(Context ctx, AttributeSet attrs) {
         TypedArray customFontNameTypedArray = ctx.obtainStyledAttributes(attrs, R.styleable.TextViewPlus);
         String customFont = customFontNameTypedArray.getString(R.styleable.TextViewPlus_nameTextView);
-        float fontSize = customFontNameTypedArray.getFloat(R.styleable.TextViewPlus_sizeTextView, 20);
+        float fontSize = customFontNameTypedArray.getFloat(R.styleable.TextViewPlus_sizeTextView, 26);
         setTextSize(pixelToSp(fontSize));
         setCustomFont(ctx, customFont);
         customFontNameTypedArray.recycle();
